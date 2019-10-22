@@ -1,0 +1,181 @@
+body {
+	background: #4B6280;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	text-align: center;
+	color: #4A98FF
+}
+
+header .namatas{
+	font-size: 17pt;
+}
+
+header .deskripsi{
+	font-size: 11pt;
+}
+
+.kotak {
+	width: 950px;
+	margin:20px auto;
+}
+
+nav.menu ul {
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 650px;
+	margin:0 0 0;
+	background: #96C4FF;
+}
+
+nav.menu ul li {
+	margin:0;
+	float: left;
+}
+
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	transition: all 0.5s ease;
+}
+
+.samping {
+	float:right;
+	width:280px;
+}
+
+.samping .list {
+	padding:25px;
+	margin:0 0 25px;
+	background:#fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+
+.samping .list h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#96C4FF;
+	font-size: 18px;
+	font-weight:800;
+}
+
+.samping .list p {
+	font-size: 12px;
+}
+
+.blog {
+	float:left;
+}
+
+.konten {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+}
+
+.konten img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+
+.konten h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+
+.informasi {
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 460px) {
+
+	nav.menu ul a {
+		padding:15px;
+		font-size: 14px;
+	}
+
+	.samping {
+		display:none
+	}
+	.informasi {
+		display:none;
+	}
+
+	.konten {
+		margin:25px auto;
+	}
+
+	.konten img {
+		margin:-5% 0 25px -5%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+
+	.header {
+		position:inherit;
+	}
+
+	.kotak {
+		width: 90%;
+		margin:25px auto;
+	}
+	.samping {
+		width:100%;
+		margin:25px 0 0;
+		float:right;
+	}
+
+	.samping .list {
+		padding:5%;
+	}
+
+	nav.menu ul {
+		width: 100%;
+	}
+
+	nav.menu ul {
+		float:inherit;
+	}
+
+	nav.menu ul li {
+		float:inherit;
+		margin:0;
+	}
+
+	nav.menu ul a {
+		padding:15px;
+		font-size: 16px;
+		}
+
+	.blog {
+		width:90%;
+	}
+
+	.konten {
+		float:inherit;
+		margin:0 auto 25px;
+		width:101%;
+		padding:5%;
+		background: #fff;
+	}
+
+	.konten img {
+		max-width: 110%;
+		margin:0 0 25px -5%;
+		min-width: 110%;
+	}
+
+}
